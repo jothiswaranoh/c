@@ -1,0 +1,6 @@
+#include<stdio.h>
+#define add(x,y) x+y
+int main()
+{
+printf("add(4,3)");
+}

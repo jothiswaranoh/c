@@ -1,0 +1,39 @@
+trees;
+binary trees - duplicate allow panathu
+balanced trees - 
+binary search trees
+depth-first search
+breadth-first search
+
+
+
+binary tree o(n)
+
+BST
+{
+    1.height of a node
+
+
+                5 3
+            1 0       7 2
+                6  0     8 1
+                            9 0
+
+                            largestdistance:b/w node to leafnode;
+
+    2.height of a tree
+
+
+}
+alg:
+if leafnode 
+height=0
+else[intermediate node]
+height=1+largestheight of its children
+
+
+
+
+averafe expected values: e(y):nEy y*p(y)
+
+

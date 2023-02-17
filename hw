@@ -1,0 +1,35 @@
+/*
+get two numbers as an input '
+
+logical operations or and 
+print output as true or false
+
+or 
+{
+    num1 ===num2
+    or
+    num1>=num2
+}
+
+and
+{
+    num1 >num2
+    or
+    num1<=num2
+}
+//hw at 5/8 which anyon
+
+get the choice based one arithemetic operation should performed
+get the input of a persons mark >100 is true
+pass or fail
+then the ouput should be pass or fail
+else if ladder
+get the persons input mark the check  first and statement
+num value<=95 and value>100 print golf medalist
+else if num<=90 and value>95 print silver medalist
+else num<=85 and values>90 print brones medalist
+else average
+
+ 
+
+*/

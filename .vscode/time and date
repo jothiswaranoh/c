@@ -1,0 +1,6 @@
+#include<stdio.h>
+
+int main()
+{
+printf("time is)%s\n",__DATE__,__TIME__);
+}

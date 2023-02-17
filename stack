@@ -1,0 +1,19 @@
+//stack check it is full or not
+if(top==size-1)
+{
+    printf("overflow\n");
+}
+//check  empty
+if(top== -1)
+{
+    printf("underflow\n");
+}
+//
+else{
+    element=stack[top];
+    top--;
+    printf("%d",element);
+}
+
+//peek
+printf("%d",stack[top]);
