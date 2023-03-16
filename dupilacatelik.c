@@ -55,7 +55,8 @@ display();
 
 
 void display()
-{ int count=0,midIdx;
+{
+     int count=0,midIdx;
     temp=head;
     while(temp!=NULL)
     {

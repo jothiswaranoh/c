@@ -55,11 +55,11 @@ int main()
 
 
    
-    create(n);
+create(n);
     
 printf("the nodes are before deletion:");
 display();
-dup();
+//dup();
 printf("\nthe nodes are aftr deletion:");
 display();
 

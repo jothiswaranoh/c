@@ -4,7 +4,7 @@ struct node
 {
     int key;
     struct node *left,*right;
-}
+};
 struct node *newnode(int item)
 {
     struct node *temp=(struct node *)malloc(sizeof(struct node));
@@ -12,8 +12,8 @@ struct node *newnode(int item)
     temp->left=NULL;
     temp->right=NULL;
     return temp;
-}
-struct node *insert_node(struct *root,int item)
+};
+struct node *insert_node(struct node *root,int item)
 {
     if(root==NULL)
     {
@@ -30,30 +30,29 @@ struct node *insert_node(struct *root,int item)
     return root;
 
 }
-struct node *newnode(int item)
+
+struct node *inorder(struct node *root)
 {
-    struct node *temp=(struct node*)malloc(sizeof(struct node));
-    temp->key=item;
-    temp->left=NULL;
-    temp->right=NULL;
-    return temp;
-}
-struct node* inorder(struct node *root)
-{
-    if(root=NULL)
-    return ;
+    if(root==NULL)
+    {
+    return 0;
+    }
     inorder(root->left);
     printf("%d",root->key);
     inorder(root->right);
-
+    return 0;
 }
-struct node* postorder
+
 
 int main()
 {
     int ch,item;
     struct node *root=malloc(sizeof(struct node));
     root=NULL;
+    
+    while(1)
+    {
+        scanf("%d",&ch);
     switch(ch)
     {
         
@@ -61,13 +60,15 @@ int main()
         scanf("%d",&item);
         root=insert_node(root,item);
         break;
-        case 2:inorder();
+        case 2:inorder(root);
         break;
         case 3:exit(0);
         break;
         default:
         printf("error");
     }
+    }
+    return 0;
 }
 
 
